@@ -5,6 +5,7 @@ body {
 }
 :root {
     --primary-color:#6d28d9;
+    --dark-gray:#475569;
 }
 hr{
     margin: 2rem 0rem;
@@ -73,4 +74,18 @@ color:white ;
 .navigation, .link-active
 {
     font-weight: bold;
+}
+.hero
+{
+    padding:1rem;
+}
+.hero, .hero-img
+{
+    margin:auto;
+    max-width:350px;
+    display:block;
+}
+.hero, .hero-heading
+{
+    color:var(--dark-gray);
 }
