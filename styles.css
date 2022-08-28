@@ -1,20 +1,5 @@
-body{
-    color:olive;
-}
-#lib-header
-{
-    color:#a78bfa;
-}
-.para
-{
-    color:#fde047
-}
-h3{
-    color:palevioletred
-}
-h1{
-    color:paleturquoise;
-}
-h2{
-    color:skyblue;
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@800&display=swap');
+
+body {
+    font-family: 'Anek Telugu', sans-serif;
 }
