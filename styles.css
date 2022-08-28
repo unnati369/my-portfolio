@@ -47,3 +47,30 @@ color:white ;
     display: inline;
     padding: 0rem 0.5rem;
 }
+/**nav**/
+.navigation
+{
+    background-color:  var(--primary-color);
+    color:aliceblue;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation,
+.nav-brand
+{
+    font-weight= bold;
+    font-size=1.1rem;
+}
+.navigation, .links{
+    color:aliceblue;
+}
+
+.nav-pills
+{
+    text-align: right;
+    padding: 0rem 2rem;
+}
+.navigation, .link-active
+{
+    font-weight: bold;
+}
