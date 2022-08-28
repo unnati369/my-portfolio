@@ -3,3 +3,36 @@
 body {
     font-family: 'Anek Telugu', sans-serif;
 }
+:root {
+    --primary-color:#6d28d9;
+}
+hr{
+    margin: 2rem 0rem;
+}
+.container
+{
+    padding-left: 1rem;
+    paddug-right=1rem;
+}
+.container-center
+{
+    max-width=160px;
+    margin:auto;
+}
+/**links**/
+.link 
+{ text decoration:none;
+padding:0.5rem,1rem;}
+.primary-link {
+
+    background-color: var(--primary-color);
+border-radius: 0.5rem;
+color:white ;
+}
+
+.link-secondary 
+{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
