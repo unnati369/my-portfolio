@@ -99,3 +99,15 @@ color:white ;
 }
 .ow
 {background-color:var(--off-white);}
+.footer
+{
+    background-color:var(--primary-color);
+    padding:2rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius:1rem;
+}
+.footer , ul
+{
+    padding-inline-start : 0px;
+}
