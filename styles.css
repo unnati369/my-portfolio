@@ -6,6 +6,7 @@ body {
 :root {
     --primary-color:#6d28d9;
     --dark-gray:#475569;
+    --off-white:#d6d3d1;
 }
 hr{
     margin: 2rem 0rem;
@@ -89,3 +90,12 @@ color:white ;
 {
     color:var(--dark-gray);
 }
+.section
+{
+    padding:1rem;
+}
+.section, h1{
+    text-align:center
+}
+.ow
+{background-color:var(--off-white);}
