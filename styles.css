@@ -25,9 +25,9 @@ hr{
 /**links**/
 .link 
 {color: white;
-     box-sizing: border-box;
-    text decoration:none;
-padding:0.5rem,1rem;
+ box-sizing: border-box;
+text-decoration: none;
+padding: 0.5rem,1rem;
 margin-top: 1rem;
 margin-bottom: 1rem;
 
@@ -101,16 +101,19 @@ margin-right: 0.5rem;
 .hero, .hero-heading
 {
     color:var(--dark-gray);
+    margin-bottom: 2rem;
 }
 .section
 {
     padding:1rem 2rem;
+    margin-bottom:2rem;
 }
 .section ,h1{
     text-align:center
 }
 .ow
-{background-color:var(--off-white);}
+{background-color:var(--off-white);
+margin-bottom: 2rem;}
 .footer
 {
     background-color:var(--primary-color);
@@ -127,4 +130,9 @@ margin-right: 0.5rem;
 {
     font-weight:bold;
     font-size:large;
+    background-color: black;
+}
+.space
+{
+    padding: 1rem 4rem;
 }
